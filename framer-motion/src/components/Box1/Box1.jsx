@@ -28,7 +28,7 @@ const [animateBox, setAnimateBox]= useState(false);
             transition={{
                 type: "spring",
                 stiffness: 60,
-                damping: 1
+                // damping: 1
             }}
             onClick={()=> setAnimateBox(!animateBox)}
             >
