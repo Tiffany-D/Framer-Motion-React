@@ -15,7 +15,7 @@ export default function Box3(){
             rotate: [0,0, 270, 270,0]
         }}
         transition={{
-            duration:2
+            duration:1
         }}
         > 
  

@@ -22,7 +22,7 @@ export default function Box4(){
 
             <button onClick={()=>{
                 controls.start({
-                    y:300,
+                    y: 300,
                     transition:{duration:2}
                 })
             }}>Go down</button>
