@@ -7,10 +7,18 @@ export default function Box2(){
 
     return(
         <div className="box-container">
-            <div className="box">
+            <motion.div className="box"
+            whileHover={{
+                scale:2.5
+            }}
+
+            whileTap={{
+                scale:0.5
+            }}
+            >
  
 
-            </div>
+            </motion.div>
 
         </div>
     )
